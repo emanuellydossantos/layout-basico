@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com DIV</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 5px;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        #cabecalho{
+            height: 150px;
+            background-color: lightskyblue;
+            width: 98%;
+            margin: 0 auto;
+        }
+        #menu{
+            height: 610px;
+            width: 300px;
+            background-color: limegreen;
+            float: left;
+            margin-left: 14px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #principal{
+            height: 610px;
+            width: 1219px;
+            background-color:pink;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        #lado{
+            height: 610px;
+            width: 300px;
+            background-color: crimson;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        #rodape{
+            height: 110px;
+            background-color:burlywood;
+            clear: both;
+            width: 98%;
+            margin: 0 auto;
+            padding: 5px;
+        }
+    </style>
+</head>
+<!--clear: both; faz com que o rodapé não flutue-->
+<!--padding defini uma distância interna entre um elemento e sua borda-->
+<!--margin: 0 auto; centraliza-->
+<!--margin-top = espaço acima do elemento-->
+<body>
+    <div id="cabecalho">
+        header
+    </div>
+    <div id="menu">
+        nav
+    </div>
+    <div id="principal">
+        main
+    </div>
+    <div id="lado">
+        aside
+    </div>
+    <div id="rodape">
+        footer
+    </div>
+</body>
+</html>
